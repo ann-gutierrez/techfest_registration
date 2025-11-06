@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72df5873-e0a2-4dbc-b6fa-0bcc82075ee2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/techfest_registration/techfest_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/techfest_registration/techfest_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762387536791</updated>
-      <workItem from="1762387538057" duration="5885000" />
+      <workItem from="1762387538057" duration="7164000" />
     </task>
     <servers />
   </component>
@@ -69,6 +70,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MidtermExam$techfest_registration.coverage" NAME="techfest_registration Coverage Results" MODIFIED="1762393993724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/techfest_registration" />
+    <SUITE FILE_PATH="coverage/MidtermExam$techfest_registration.coverage" NAME="techfest_registration Coverage Results" MODIFIED="1762395359377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/techfest_registration" />
   </component>
 </project>

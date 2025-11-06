@@ -2,7 +2,7 @@
 print("Welcome to SMIT TechFest!")
 print("Event organized by Ann Gutierrez of APPDAET BTCS1")
 
-num_participants = int(input("How many participants will register?: "))
+num_participants = int(input("\nHow many participants will register?: "))
 if num_participants <= 0:
     print("Invalid number of participants.")
 
@@ -49,4 +49,18 @@ if check_duplicates:
         print(f"\nDuplicate name found: {name}")
 else: print("No duplicate names.")
 
+# Track Summary Report
+track_summary = {}
+for p in participants_list:
+    track = p['track']
+    if track in track_summary:
+        track_summary[track] += 1
+    else:
+        track_summary[track] = 1
+
+print("\nParticipants per track: ")
+for track, count in track_summary.items():
+    print(f"{track}: {count}")
+
+input()
 
