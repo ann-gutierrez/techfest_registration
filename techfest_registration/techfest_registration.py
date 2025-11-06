@@ -8,17 +8,28 @@ if num_participants <= 0:
 
 # Collect Participant Information
 else:
-    participants = []
+    participants_list = []
     for i in range(num_participants):
         print(f"Participant #{i+1}: ")
         name = input("Enter Participant Name: ")
         track = input("Enter Chosen Track: ")
-
-        participant = {"name": name, "track": track}
-        participants.append(participant)
+        participants_list.append({"name": name, "track": track})
 
     print("\nRegistered Participants:")
-    for i in range(len(participants)):
-        print(f"{i+1}. {participants[i]['name']} - {participants[i]['track']}")
+    count = 1
+    for p in participants_list:
+        print(f"{count}. {p['name']} - {p['track']}")
+        count = count + 1
 
 # Track Diversity Report
+
+tracks = set()
+for p in participants_list:
+    tracks.add(p['track'])
+
+print("\nTracks Offered in this Event:")
+print(", ".join(tracks))
+
+if len(tracks) < 2:
+    print("Not enough variety in tracks.")
+
